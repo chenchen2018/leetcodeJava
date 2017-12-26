@@ -27,10 +27,10 @@ class Q4Solution {
         int increment = k / 2 - 1;  //index increment starting from current index
         int nums1Element = start1 + increment >= nums1.length ? Integer.MAX_VALUE : nums1[start1 + increment];
         int nums2Element = start2 + increment >= nums2.length ? Integer.MAX_VALUE : nums2[start2 + increment];
-        if (nums1Element >= nums2Element) {
-            return findKthElement(nums1, start1 + increment + 1, nums2, start2, k - increment);
+        if (nums1Element < nums2Element) {
+            return findKthElement(nums1, start1 + increment + 1, nums2, start2, k - increment - 1);
         } else {
-            return findKthElement(nums1, start1, nums2, start2 + increment + 1, k - increment);
+            return findKthElement(nums1, start1, nums2, start2 + increment + 1, k - increment - 1);
         }
     }
 }
