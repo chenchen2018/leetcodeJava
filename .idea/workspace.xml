@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3a014d4-df4d-448d-b468-6e31d4418a05" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/easy/Q21.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/easy/Q20.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -89,7 +89,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Q21.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Q21.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/easy/Q21.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="460">
@@ -97,6 +97,19 @@
               <folding>
                 <element signature="e#699#700#0" expanded="true" />
                 <element signature="e#729#730#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Q20.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/easy/Q20.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="401">
+              <caret line="22" column="31" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="22" selection-end-column="31" />
+              <folding>
+                <element signature="e#603#604#0" expanded="true" />
+                <element signature="e#658#659#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -167,6 +180,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/easy/Q27.java" />
         <option value="$PROJECT_DIR$/src/leetcode/easy/Q26.java" />
         <option value="$PROJECT_DIR$/src/leetcode/easy/Q21.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/easy/Q20.java" />
       </list>
     </option>
   </component>
@@ -176,9 +190,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2286" />
-    <option name="y" value="398" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="1978" />
+    <option name="y" value="-46" />
     <option name="width" value="1216" />
     <option name="height" value="1294" />
   </component>
@@ -232,7 +246,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="easy" type="462c0819:PsiDirectoryNode" />
-              <item name="Q21.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="Q20.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -476,15 +490,15 @@
       <workItem from="1507903018785" duration="1915000" />
       <workItem from="1509999678981" duration="11427000" />
       <workItem from="1510091848145" duration="845000" />
-      <workItem from="1514302300220" duration="23077000" />
+      <workItem from="1514302300220" duration="23376000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88969000" />
+    <option name="totallyTimeSpent" value="89268000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-90" width="1936" height="1216" extended-state="6" />
+    <frame x="1912" y="-90" width="1936" height="1216" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -528,13 +542,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/hard/Q44.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="56" column="49" lean-forward="false" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/medium/Q31.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -930,6 +937,17 @@
           <folding>
             <element signature="e#699#700#0" expanded="true" />
             <element signature="e#729#730#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/easy/Q20.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="22" column="31" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="e#603#604#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
           </folding>
         </state>
       </provider>
