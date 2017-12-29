@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3a014d4-df4d-448d-b468-6e31d4418a05" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/medium/Q33.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/hard/Q25.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -16,12 +16,25 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Q33.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Q33.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/medium/Q33.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="36" column="9" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="36" selection-end-column="9" />
+            <state relative-caret-position="365">
+              <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Q25.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/hard/Q25.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="41" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
+              <folding>
+                <element signature="e#1179#1180#0" expanded="true" />
+                <element signature="e#1207#1208#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -46,7 +59,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/medium/Q116.java" />
         <option value="$PROJECT_DIR$/src/medium/Q116.java" />
         <option value="$PROJECT_DIR$/src/lintcode/Main.java" />
         <option value="$PROJECT_DIR$/src/lintcode/easy/Q185.java" />
@@ -97,6 +109,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/medium/Q18.java" />
         <option value="$PROJECT_DIR$/src/leetcode/medium/Q29.java" />
         <option value="$PROJECT_DIR$/src/leetcode/medium/Q33.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/hard/Q25.java" />
       </list>
     </option>
   </component>
@@ -190,34 +203,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="medium" />
+              <option name="myItemId" value="hard" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leetcodeJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leetcodeJava" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="leetcode" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="medium" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Q33.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -780,12 +767,12 @@
       <workItem from="1514302300220" duration="32790000" />
       <workItem from="1514411859040" duration="3659000" />
       <workItem from="1514424006548" duration="3974000" />
-      <workItem from="1514473646082" duration="13589000" />
+      <workItem from="1514473646082" duration="15355000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119904000" />
+    <option name="totallyTimeSpent" value="121670000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1535" height="904" extended-state="6" />
@@ -836,13 +823,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/hard/Q76.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="935">
-          <caret line="57" column="0" lean-forward="false" selection-start-line="57" selection-start-column="2" selection-end-line="85" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/lintcode/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1196,9 +1176,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/medium/Q33.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="36" column="9" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="36" selection-end-column="9" />
+        <state relative-caret-position="365">
+          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/hard/Q25.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="41" column="5" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="41" selection-end-column="5" />
+          <folding>
+            <element signature="e#1179#1180#0" expanded="true" />
+            <element signature="e#1207#1208#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
