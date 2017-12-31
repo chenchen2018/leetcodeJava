@@ -7,7 +7,7 @@ import java.util.Stack;
  */
 public class Q32 {
     public static void main(String[] args) {
-        System.out.println(new Q32Solution().longestValidParentheses2("(()"););
+        System.out.println(new Q32Solution().longestValidParentheses2("(()"));
     }
 }
 
