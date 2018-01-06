@@ -39,6 +39,7 @@ class Solution {
                     return true;
                 }
             }
+            //return helper(s, sIndex, p, pIndex + 1) || helper(s, sIndex + 1, p, pIndex); but this one will TLE
             return false;
         } else {
             if (pChar != s.charAt(sIndex)) {
