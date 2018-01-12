@@ -8,7 +8,7 @@ public class Q42 {
 
 class Q42Solution {
     //brute force
-    public int trap(int[] height) {
-
-    }
+//    public int trap(int[] height) {
+//
+//    }
 }
