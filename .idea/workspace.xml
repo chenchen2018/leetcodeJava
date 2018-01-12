@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3a014d4-df4d-448d-b468-6e31d4418a05" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/hard/Q57.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/hard/Q51.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bundlePlugin.log" afterPath="$PROJECT_DIR$/bundlePlugin.log" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,15 +23,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Q57.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Q57.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/hard/Q57.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="36" selection-end-column="25" />
+            <state relative-caret-position="660">
+              <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1767#1768#0" expanded="true" />
                 <element signature="e#1798#1799#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Q51.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/hard/Q51.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="422">
+              <caret line="50" column="27" lean-forward="true" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#138#139#0" expanded="true" />
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#2871#2872#0" expanded="true" />
+                <element signature="e#2930#2931#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -63,7 +78,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/easy/Q169.java" />
         <option value="$PROJECT_DIR$/src/leetcode/medium/Q71.java" />
         <option value="$PROJECT_DIR$/src/leetcode/medium/Q64.java" />
         <option value="$PROJECT_DIR$/src/leetcode/medium/Q62.java" />
@@ -114,6 +128,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/hard/Q42.java" />
         <option value="$PROJECT_DIR$/src/leetcode/medium/Q93.java" />
         <option value="$PROJECT_DIR$/src/leetcode/hard/Q57.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/hard/Q51.java" />
       </list>
     </option>
   </component>
@@ -177,7 +192,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="hard" type="462c0819:PsiDirectoryNode" />
-              <item name="Q57.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="Q51.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -205,15 +220,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Q57">
-    <configuration name="Q125" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Q51">
+    <configuration name="Q50" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="leetcode.easy.*" />
+          <option name="PATTERN" value="leetcode.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="leetcode.easy.Q125" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.medium.Q50" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -225,14 +240,14 @@
       <module name="Test" />
       <envs />
     </configuration>
-    <configuration name="Q50" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Q51" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="leetcode.medium.*" />
+          <option name="PATTERN" value="leetcode.hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="leetcode.medium.Q50" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.hard.Q51" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -500,19 +515,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Q125" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Q50" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Q54" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Q93" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Q57" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Q50" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Q54" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Q93" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Q57" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Q51" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Q57" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Q93" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Q54" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Q50" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Q125" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Q51" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Q57" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Q93" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Q54" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Q50" />
       </list>
     </recent_temporary>
   </component>
@@ -561,12 +576,12 @@
       <workItem from="1515545992339" duration="576000" />
       <workItem from="1515605543154" duration="18678000" />
       <workItem from="1515774236782" duration="3680000" />
-      <workItem from="1515783516591" duration="3354000" />
+      <workItem from="1515783516591" duration="7609000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="259919000" />
+    <option name="totallyTimeSpent" value="264174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-90" width="1936" height="1216" extended-state="6" />
@@ -613,7 +628,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="15" />
+      <option name="time" value="18" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -622,7 +637,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/medium/Q63.java" />
     <entry file="file://$PROJECT_DIR$/src/leetcode/medium/Q60.java" />
     <entry file="file://$PROJECT_DIR$/src/leetcode/easy/Q190.java" />
     <entry file="file://$PROJECT_DIR$/src/leetcode/medium/Q77.java" />
@@ -706,12 +720,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/hard/Q57.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="36" selection-end-column="25" />
+        <state relative-caret-position="660">
+          <caret line="33" column="40" lean-forward="true" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1767#1768#0" expanded="true" />
             <element signature="e#1798#1799#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/hard/Q51.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="50" column="27" lean-forward="true" selection-start-line="50" selection-start-column="27" selection-end-line="50" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#2871#2872#0" expanded="true" />
+            <element signature="e#2930#2931#0" expanded="true" />
           </folding>
         </state>
       </provider>
