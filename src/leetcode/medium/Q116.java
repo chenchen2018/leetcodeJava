@@ -1,5 +1,8 @@
 package leetcode.medium;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
 public class Q116 {
 }
 
@@ -25,7 +28,7 @@ class Q116Solution{
         if (root == null || root.left == null) {
             return;
         }
-        TreeLinkNode parent = root, next = root.left;
+        TreeLinkNode parent = root, next = root.left;   //next is pointing to the first node on next level
         while (parent != null && next != null) {
             TreeLinkNode prev = null;
             while (parent != null) {
@@ -42,6 +45,29 @@ class Q116Solution{
             }
             parent = next;
             next = parent.left;
+        }
+    }
+
+    public void connect3(TreeLinkNode root) {
+        if (root == null || root.left == null) {
+            return;
+        }
+        Queue<TreeLinkNode> currLevel = new LinkedList<>();
+        Queue<TreeLinkNode> nextLevel;
+        currLevel.add(root);
+        while (!currLevel.isEmpty()) {
+            nextLevel = new LinkedList<>();
+            while (!currLevel.isEmpty()) {
+                TreeLinkNode node = currLevel.poll();
+                if (!currLevel.isEmpty()) {
+                    node.next = currLevel.peek();
+                }
+                if (node.left != null) {
+                    nextLevel.offer(node.left);
+                    nextLevel.offer(node.right);
+                }
+            }
+            currLevel = nextLevel;
         }
     }
 }
