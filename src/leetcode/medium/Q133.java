@@ -52,7 +52,7 @@ class Q133Solution {
         return new ArrayList<UndirectedGraphNode>(set);
     }
 
-    public UndirectedGraphNode cloneGraph2(UndirectedGraphNode node) {
+    public UndirectedGraphNode cloneGraph2(UndirectedGraphNode node) {      //ok.. this solution is same as cloneGraph1.
         if (node == null) {
             return null;
         }
