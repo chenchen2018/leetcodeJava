@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3a014d4-df4d-448d-b468-6e31d4418a05" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/medium/Q129.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/leetcode/medium/Q130.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,13 +23,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Q129.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Q129.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leetcode/medium/Q129.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+            <state relative-caret-position="460">
+              <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Q130.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leetcode/medium/Q130.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="703">
+              <caret line="219" column="9" lean-forward="true" selection-start-line="219" selection-start-column="9" selection-end-line="219" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#5747#5753#0" expanded="true" />
+                <element signature="e#6156#6162#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -60,7 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/leetcode/easy/Q232.java" />
         <option value="$PROJECT_DIR$/src/leetcode/easy/Q231.java" />
         <option value="$PROJECT_DIR$/src/leetcode/easy/Q226.java" />
         <option value="$PROJECT_DIR$/src/leetcode/easy/Q225.java" />
@@ -111,6 +124,7 @@
         <option value="$PROJECT_DIR$/src/leetcode/medium/Q114.java" />
         <option value="$PROJECT_DIR$/src/leetcode/medium/Q127.java" />
         <option value="$PROJECT_DIR$/src/leetcode/medium/Q129.java" />
+        <option value="$PROJECT_DIR$/src/leetcode/medium/Q130.java" />
       </list>
     </option>
   </component>
@@ -120,7 +134,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="1912" />
     <option name="y" value="-90" />
     <option name="width" value="1936" />
@@ -175,7 +189,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leetcode" type="462c0819:PsiDirectoryNode" />
               <item name="medium" type="462c0819:PsiDirectoryNode" />
-              <item name="Q129.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="Q130.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -563,15 +577,15 @@
       <workItem from="1515796471538" duration="425000" />
       <workItem from="1516120177302" duration="11455000" />
       <workItem from="1516204277912" duration="15050000" />
-      <workItem from="1516287262424" duration="2461000" />
+      <workItem from="1516287262424" duration="8835000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="294641000" />
+    <option name="totallyTimeSpent" value="301015000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-90" width="1936" height="1216" extended-state="6" />
+    <frame x="1912" y="-90" width="1936" height="1216" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -632,7 +646,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/leetcode/medium/Q90.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Collections.java" />
     <entry file="file://$PROJECT_DIR$/src/leetcode/medium/Q89.java" />
     <entry file="file://$PROJECT_DIR$/src/leetcode/medium/Q86.java" />
@@ -875,10 +888,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leetcode/medium/Q129.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+        <state relative-caret-position="460">
+          <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leetcode/medium/Q130.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="219" column="9" lean-forward="true" selection-start-line="219" selection-start-column="9" selection-end-line="219" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#5747#5753#0" expanded="true" />
+            <element signature="e#6156#6162#0" expanded="true" />
           </folding>
         </state>
       </provider>
