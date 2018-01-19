@@ -2,7 +2,6 @@ package leetcode.medium;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Random;
 
 public class Q138 {
 }
