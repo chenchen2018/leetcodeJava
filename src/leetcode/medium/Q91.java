@@ -40,4 +40,33 @@ class Q91Solution {
         int input = Integer.parseInt(s);
         return input >= 1 && input <= 26;
     }
+
+    //用序列型来做
+    public int numDecodings2(String s) {
+        if (s == null || s.isEmpty()) {
+            return 0;
+        }
+        int n = s.length();
+        int[] f = new int[n + 1];
+        f[0] = 1;
+        char[] array = s.toCharArray();
+
+        int num1, num2;
+
+        for (int index = 1; index <= n; index++) {
+            f[index] = 0;
+            num1 = array[index - 1] - '0';
+            if (num1 > 0 &&num1 <= 9) {
+                f[index] = f[index - 1];
+            }
+            if (index > 1) {
+                num2 = (array[index - 2] - '0') * 10 + array[index - 1] - '0';
+                if (num2 >= 10 && num2 <= 26) {
+                    f[index] += f[index - 2];
+                }
+            }
+        }
+
+        return f[n];
+    }
 }
