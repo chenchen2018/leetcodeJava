@@ -91,4 +91,36 @@ class Solution {
         }
         return dp[slen - 1];
     }
+
+    public boolean isMatch3(String s, String p) {
+        int m = s.length(), n = p.length();
+        boolean[][] f = new boolean[m + 1][n + 1];
+        //f[i][j] stands for if s's first i characters can match p's first j characters
+        //f[i][j] = f[i - 1][j - 1] if p's j - 1th character is . or equal to s's i - 1 th.
+        //f[i][j] = f[i - 1][j] || f[i][j - 1] if it's ?
+        for (int i = 0; i <= m; i++) {
+            for (int j = 0; j <= n; j++) {
+                if (i == 0 && j == 0) {
+                    f[0][0] = true;
+                    continue;
+                }
+                if (j == 0) {
+                    f[i][j] = false;
+                    continue;
+                }
+                f[i][j] = false;
+                if (p.charAt(j - 1) == '*') {
+                    f[i][j] |= f[i][j - 1];
+                    if (i > 0) {
+                        f[i][j] |= f[i - 1][j];
+                    }
+                } else {
+                    if (i > 0 && (p.charAt(j - 1) == '?' || p.charAt(j - 1) == s.charAt(i - 1))) {
+                        f[i][j] |= f[i - 1][j - 1];
+                    }
+                }
+            }
+        }
+        return f[m][n];
+    }
 }
