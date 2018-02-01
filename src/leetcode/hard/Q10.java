@@ -44,4 +44,43 @@ class Q10Solution {
             }
         }
     }
+
+    //let's do dp!!!!
+    public boolean isMatch2(String s, String p) {
+        int m = s.length(), n = p.length();
+        boolean[][] f = new boolean[m + 1][n + 1];
+        //f[i][j] stands for if s's first i characters can match p's first j characters
+        //f[i][j] = f[i - 1][j - 1] if it's . or exactly match
+        //f[i][j] = f[i][j - 2] || f[i - 1][j]
+        for (int i = 0; i <= m; i++) {
+            for (int j = 0; j <= n; j++) {
+                if (i == 0 && j == 0) {
+                    f[i][j] = true;
+                    continue;
+                }
+                if (j == 0) {
+                    f[i][j] = false;
+                    continue;
+                }
+                f[i][j] = false;
+                if (p.charAt(j - 1) == '*') {
+                    if (i > 0 && j > 1) {
+                        if (p.charAt(j - 2) == '.' || p.charAt(j - 2) == s.charAt(i - 1)) {
+                            f[i][j] |= f[i - 1][j];
+                        }
+                    }
+                    if (j > 1) {
+                        f[i][j] |= f[i][j - 2];
+                    }
+                } else {
+                    if (i > 0) {
+                        if (p.charAt(j - 1) == '.' || s.charAt(i - 1) == p.charAt(j - 1)) {
+                            f[i][j] |= f[i - 1][j - 1];
+                        }
+                    }
+                }
+            }
+        }
+        return f[m][n];
+    }
 }
