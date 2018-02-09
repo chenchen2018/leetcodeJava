@@ -1,6 +1,10 @@
 package leetcode.medium;
 
 public class Q416 {
+    public static void main(String[] args) {
+        int[] input = {1, 2, 5};
+        new Q416Solution().canPartition2(input);
+    }
 }
 
 class Q416Solution {
@@ -25,6 +29,22 @@ class Q416Solution {
         if (nums.length < 2) {
             return false;
         }
-
+        int sum = 0;
+        for (int num : nums) {
+            sum += num;
+        }
+        if (sum % 2 != 0) {
+            return false;
+        }
+        boolean[] f = new boolean[sum + 1];
+        f[0] = true;
+        for (int num : nums) {
+            for (int i = sum; i >= num; i--) {
+                if (f[i - num]) {
+                    f[i] = true;
+                }
+            }
+        }
+        return f[sum / 2];
     }
 }
