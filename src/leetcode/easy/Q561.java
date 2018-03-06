@@ -1,0 +1,20 @@
+package leetcode.easy;
+
+import java.util.Arrays;
+
+/**
+ * Created by cchen on 3/5/18.
+ */
+public class Q561 {
+}
+
+class Q561Solution {
+    public int arrayPairSum(int[] nums) {
+        Arrays.sort(nums);
+        int sum = 0;
+        for (int i = 0; i < nums.length; i+= 2) {
+            sum += nums[i];
+        }
+        return sum;
+    }
+}
