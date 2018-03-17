@@ -25,49 +25,65 @@ public class Q460 {
 }
 
 class LFUCache {
-    HashMap<Integer, Integer> vals;
-    HashMap<Integer, Integer> counts;
-    HashMap<Integer, LinkedHashSet<Integer>> lists;
-    int cap;
-    int min = -1;           //global min to keep track the minimum frequency
+    Map<Integer, Integer> values;
+    Map<Integer, Integer> frequencies;
+    Map<Integer, LinkedHashSet<Integer>> map;
+    int capacity;
+    int minFrequency;
+
     public LFUCache(int capacity) {
-        cap = capacity;
-        vals = new HashMap<>();
-        counts = new HashMap<>();
-        lists = new HashMap<>();
-        lists.put(1, new LinkedHashSet<>());
+        values = new HashMap<>();
+        frequencies = new HashMap<>();
+        map = new HashMap<>();
+        this.capacity = capacity;
+        minFrequency = -1;
     }
 
     public int get(int key) {
-        if(!vals.containsKey(key))
+        if (!values.containsKey(key)) {
             return -1;
-        int count = counts.get(key);
-        counts.put(key, count+1);
-        lists.get(count).remove(key);
-        if(count==min && lists.get(count).size()==0)
-            min++;
-        if(!lists.containsKey(count+1))
-            lists.put(count+1, new LinkedHashSet<>());
-        lists.get(count+1).add(key);
-        return vals.get(key);
+        }
+        int currFrequency = frequencies.get(key);
+        frequencies.put(key, currFrequency + 1);
+        map.get(currFrequency).remove(key);
+        if (!map.containsKey(currFrequency + 1)) {
+            map.put(currFrequency + 1, new LinkedHashSet<Integer>());
+        }
+        map.get(currFrequency + 1).add(key);
+        if (currFrequency == minFrequency && map.get(currFrequency).isEmpty()) {
+            minFrequency++;
+        }
+        return values.get(key);
     }
 
     public void put(int key, int value) {
-        if(cap<=0)
+        if (this.capacity < 1) {
             return;
-        if(vals.containsKey(key)) {
-            vals.put(key, value);
+        }
+        if (values.containsKey(key)) {
+            values.put(key, value);
             get(key);
             return;
         }
-        if(vals.size() >= cap) {
-            int evit = lists.get(min).iterator().next();
-            lists.get(min).remove(evit);
-            vals.remove(evit);
+        if (values.size() == capacity) {
+            int delete = map.get(minFrequency).iterator().next();
+            map.get(minFrequency).remove(delete);
+            values.remove(delete);
+            frequencies.remove(delete);
         }
-        vals.put(key, value);
-        counts.put(key, 1);
-        min = 1;
-        lists.get(1).add(key);
+        values.put(key, value);
+        frequencies.put(key, 1);
+        if (!map.containsKey(1)) {
+            map.put(1, new LinkedHashSet<>());
+        }
+        map.get(1).add(key);
+        minFrequency = 1;
     }
 }
+
+/**
+ * Your LFUCache object will be instantiated and called as such:
+ * LFUCache obj = new LFUCache(capacity);
+ * int param_1 = obj.get(key);
+ * obj.put(key,value);
+ */
