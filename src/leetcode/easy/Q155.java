@@ -6,6 +6,54 @@ import java.util.Stack;
  * Created by chen on 1/3/18.
  */
 public class Q155 {
+    public static void main(String[] args) {
+        MinStackWrong minStackWrong = new MinStackWrong();
+        minStackWrong.push(512);
+        minStackWrong.push(-1024);
+        minStackWrong.push(-1024);
+        minStackWrong.push(512);
+        minStackWrong.pop();
+        minStackWrong.getMin();
+        minStackWrong.pop();
+        minStackWrong.getMin();
+        minStackWrong.pop();
+        minStackWrong.getMin();
+    }
+}
+
+class MinStackWrong {
+    Stack<Integer> stack, minStack;
+
+    /** initialize your data structure here. */
+    public MinStackWrong() {
+        stack = new Stack<>();
+        minStack = new Stack<>();
+    }
+
+    public void push(int x) {
+        stack.push(x);
+        if (minStack.isEmpty() || minStack.peek() >= x) {
+            minStack.push(x);
+        }
+    }
+
+    public void pop() {
+        // int value = stack.pop();
+        // if (value == minStack.peek()) {
+        //     minStack.pop();
+        // }
+        if (stack.pop() == minStack.peek()) {       //this is wrong because you are comparing 2 objects
+            minStack.pop();
+        }
+    }
+
+    public int top() {
+        return stack.peek();
+    }
+
+    public int getMin() {
+        return minStack.peek();
+    }
 }
 
 class MinStack {
