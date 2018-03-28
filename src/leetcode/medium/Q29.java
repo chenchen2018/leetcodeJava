@@ -38,5 +38,15 @@ class Q29Solution {
         }
         return count + helper(first - sum, second);
     }
+
+    //Do not use. Demo purpose only.
+    private long helper2(long first, long second) {
+        long res = 0;
+        while (first >= second) {
+            res++;
+            first -= second;
+        }
+        return res;
+    }
 }
 
