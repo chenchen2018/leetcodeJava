@@ -15,7 +15,7 @@ class Q92Solution {
         ListNode dummy = new ListNode(0), slow = dummy, fast = dummy;
         dummy.next = head;
         int step = 0;
-        while (step <= n  - m) {
+        while (step <= n - m) {
             fast = fast.next;
             step++;
         }
